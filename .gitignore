@@ -1,3 +1,4 @@
 *.DS_store
 pyrightconfig.json
 .python-version
+*node_modules*

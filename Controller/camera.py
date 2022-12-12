@@ -85,3 +85,14 @@ class Camera:
             return False
 
         return True
+
+if __name__ == '__main__':
+    camera = Camera(width=1920, height=1080)
+    camera.open(0)
+    # camera.saveCapture()
+    # camera.destroy()
+    while True:
+        frame = camera.capture()
+        cv2.imshow('frame', frame)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
