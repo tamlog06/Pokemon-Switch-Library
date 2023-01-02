@@ -1,0 +1,300 @@
+.button.button {
+  left: 19.5313%;
+  right: 74.7396%;
+  top: 82.5926%;
+  bottom: 13.5185%;
+  width: initial;
+  height: initial;
+}
+.button2.button2 {
+  left: 19.5313%;
+  right: 74.7396%;
+  top: 88.7963%;
+  bottom: 7.3148%;
+  width: initial;
+  height: initial;
+}
+.button3.button3 {
+  left: 39.1146%;
+  right: 55.1562%;
+  top: 90.1852%;
+  bottom: 5.9259%;
+  width: initial;
+  height: initial;
+}
+.button4.button4 {
+  left: 45.6771%;
+  right: 48.5938%;
+  top: 90.1852%;
+  bottom: 5.9259%;
+  width: initial;
+  height: initial;
+}
+.image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  // background-image:/* webpackIgnore: true */ url('../..//assets/image.jpeg');
+  background-image: url('../../../public/assets/image.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  background-image: linear-gradient(90deg, #ff8008ff 0%, #ffc837ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 66.6667%;
+  right: 26.3542%;
+  top: 2.8704%;
+  bottom: 92.8704%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.text2 {
+  background-image: linear-gradient(90deg, #ff8008ff 0%, #ffc837ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 2.0833%;
+  right: 68.4896%;
+  top: 1.9444%;
+  bottom: 92.8704%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle {
+  position: absolute;
+  left: 66.6667%;
+  right: 2.0833%;
+  top: 8.7963%;
+  bottom: 4.4444%;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.test_picture {
+  position: absolute;
+  left: 2.0833%;
+  right: 35.4167%;
+  top: 8.7963%;
+  bottom: 28.7037%;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  // background-image:/* webpackIgnore: true */ url('/assets/test_picture.jpeg');
+  background-image: url('../../../public/assets/test_picture.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle2 {
+  position: absolute;
+  left: 2.0833%;
+  right: 73.9583%;
+  top: 74.4444%;
+  bottom: 4.4444%;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 23px;
+}
+.text3 {
+  color: #202020;
+  font-size: 30px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 3.2813%;
+  right: 88.5417%;
+  top: 82.8704%;
+  bottom: 13.8889%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.text4 {
+  color: #202020;
+  font-size: 30px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 2.5521%;
+  right: 88.5417%;
+  top: 89.0741%;
+  bottom: 7.6852%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.text5 {
+  background-image: linear-gradient(90deg, #ff8008ff 0%, #ffa41fff 50%, #ffc837ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 2.9167%;
+  right: 85.9375%;
+  top: 76.6667%;
+  bottom: 20.0926%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle3 {
+  position: absolute;
+  left: 12.0833%;
+  right: 81.0938%;
+  top: 82.8704%;
+  bottom: 13.8889%;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle4 {
+  position: absolute;
+  left: 12.0833%;
+  right: 81.0938%;
+  top: 89.0741%;
+  bottom: 7.6852%;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle5 {
+  position: absolute;
+  left: 28.125%;
+  right: 47.9167%;
+  top: 73.9815%;
+  bottom: 4.9074%;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 23px;
+}
+.text6 {
+  background-image: linear-gradient(90deg, #ff8008ff 0%, #ffc837ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 28.6458%;
+  right: 56.9271%;
+  top: 76.2037%;
+  bottom: 20.5556%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.image2 {
+  position: absolute;
+  left: 28.6458%;
+  right: 70.3125%;
+  top: 81.8519%;
+  bottom: 16.2963%;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.image3 {
+  position: absolute;
+  left: 28.6458%;
+  right: 70.3125%;
+  top: 86.1111%;
+  bottom: 12.037%;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.text7 {
+  color: #202020;
+  font-size: 30px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 30.3646%;
+  right: 60.8854%;
+  top: 85.3704%;
+  bottom: 11.3889%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle6 {
+  position: absolute;
+  left: 39.7917%;
+  right: 48.5938%;
+  top: 85.3704%;
+  bottom: 11.3889%;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.text8 {
+  color: #202020;
+  font-size: 30px;
+  font-family: Arial Rounded MT Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 583px;
+  top: 876px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
