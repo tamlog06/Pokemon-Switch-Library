@@ -1,0 +1,218 @@
+.backgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.output {
+  margin: 0;
+  top: 2.87%;
+  left: 66.67%;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #ff8008, #ffc837);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+.output,
+.output1,
+.title {
+  position: absolute;
+}
+.title {
+  margin: 0;
+  top: 1.94%;
+  left: 2.08%;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #ff8008, #ffc837);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+.output1 {
+  border: 1px solid var(--color-black);
+  height: 86.76%;
+  width: 31.25%;
+  top: 8.8%;
+  right: 2.08%;
+  bottom: 4.44%;
+  left: 66.67%;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+.testPictureIcon {
+  position: absolute;
+  height: 62.5%;
+  width: 62.5%;
+  top: 8.8%;
+  right: 35.42%;
+  bottom: 28.7%;
+  left: 2.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.serialSettingsWrapper {
+  position: absolute;
+  height: 21.11%;
+  width: 23.96%;
+  top: 74.44%;
+  right: 73.96%;
+  bottom: 4.44%;
+  left: 2.08%;
+  border-radius: var(--br-md);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.cameraId,
+.comPort,
+.serialSettings {
+  margin: 0;
+  position: absolute;
+  top: 82.87%;
+  left: 3.28%;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+.cameraId,
+.serialSettings {
+  top: 89.07%;
+  left: 2.55%;
+}
+.serialSettings {
+  top: 76.67%;
+  left: 2.92%;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #ff8008, #ffa41f 49.71%, #ffc837);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cameraIdReloadWrapper,
+.comPortReloadWrapper {
+  position: absolute;
+  height: 3.89%;
+  width: 5.73%;
+  top: 82.59%;
+  right: 74.74%;
+  bottom: 13.52%;
+  left: 19.53%;
+  background: linear-gradient(90deg, #ff8008, #ffa41f 49.71%, #ffc837);
+}
+.cameraIdReloadWrapper {
+  top: 88.8%;
+  bottom: 7.31%;
+}
+.commandSettingsWrapper {
+  position: absolute;
+  height: 21.11%;
+  width: 23.96%;
+  top: 73.98%;
+  right: 47.92%;
+  bottom: 4.91%;
+  left: 28.13%;
+  border-radius: var(--br-md);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.commandSettings {
+  margin: 0;
+  position: absolute;
+  top: 76.2%;
+  left: 28.65%;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #ff8008, #ffc837);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+.commandStartWrapper {
+  position: absolute;
+  height: 3.89%;
+  width: 5.73%;
+  top: 90.19%;
+  right: 55.16%;
+  bottom: 5.93%;
+  left: 39.11%;
+  background: linear-gradient(90deg, #ff8008, #ffc837);
+  color: #fafafa;
+  font: bold;
+  font-family: inherit;
+  font-size: 250;
+}
+.resetWrapper {
+  position: absolute;
+  height: 3.89%;
+  width: 5.73%;
+  top: 90.19%;
+  right: 48.59%;
+  bottom: 5.93%;
+  left: 45.68%;
+  background: #d9d9d9;
+  color: #aaaaaa;
+  font: bold;
+}
+.automationSelect,
+.automationWrapper,
+.manualWrapper {
+  position: absolute;
+  height: 3.24%;
+  width: 11.61%;
+  top: 85.37%;
+  right: 48.59%;
+  bottom: 11.39%;
+  left: 39.79%;
+}
+.automationWrapper,
+.manualWrapper {
+  width: 10.21%;
+  right: 60.78%;
+  left: 29.01%;
+}
+.manualWrapper {
+  top: 81.11%;
+  bottom: 15.65%;
+}
+.cameraIdSelect,
+.comPortSelect {
+  position: absolute;
+  height: 3.24%;
+  width: 6.82%;
+  top: 89.07%;
+  right: 81.09%;
+  bottom: 7.69%;
+  left: 12.08%;
+}
+.comPortSelect {
+  top: 82.87%;
+  bottom: 13.89%;
+}
+.switchApp {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  font-family: var(--font-arial-rounded-mt-bold);
+}

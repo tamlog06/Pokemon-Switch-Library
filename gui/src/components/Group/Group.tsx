@@ -2,12 +2,13 @@ import { memo } from 'react';
 import type { FC } from 'react';
 
 import resets from '../_resets.module.scss';
-import { Button_1Reload } from './Button_1Reload/Button_1Reload';
-import { Button_1Reset } from './Button_1Reset/Button_1Reset';
-import { Button_1Start } from './Button_1Start/Button_1Start';
-import classes from './Group1.module.scss';
+import { Button_Reload } from './Button_Reload/Button_Reload';
+import { Button_Reset } from './Button_Reset/Button_Reset';
+import { Button_Start } from './Button_Start/Button_Start';
+import classes from './Group.module.scss';
 import { ImageIcon } from './ImageIcon';
 import { ImageIcon2 } from './ImageIcon2';
+import { Radio_Button } from './Radio_Button/Radio_Button';
 
 interface Props {
   className?: string;
@@ -27,8 +28,8 @@ export const Group1: FC<Props> = memo(function Group1(props = {}) {
       <div className={classes.text5}>Serial Settings</div>
       <div className={classes.rectangle3}></div>
       <div className={classes.rectangle4}></div>
-      <Button_1Reload className={classes.button} />
-      <Button_1Reload className={classes.button2} />
+      <Button_Reload className={classes.button} />
+      <Button_Reload className={classes.button2} />
       <div className={classes.rectangle5}></div>
       <div className={classes.text6}>Command Settings</div>
       <div className={classes.image2}>
@@ -39,8 +40,8 @@ export const Group1: FC<Props> = memo(function Group1(props = {}) {
       </div>
       <div className={classes.text7}>Automation</div>
       <div className={classes.rectangle6}></div>
-      <Button_1Start className={classes.button3} />
-      <Button_1Reset className={classes.button4} />
+      <Button_Start className={classes.button3} />
+      <Button_Reset className={classes.button4} />
       <div className={classes.text8}>Manual</div>
     </>
   );

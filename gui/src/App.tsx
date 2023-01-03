@@ -3,7 +3,7 @@ import type { FC } from 'react';
 
 import classes from './App.module.scss';
 import resets from './components/_resets.module.scss';
-import { Group1 } from './components/Group1/Group1';
+import { Group1 } from './components/Group/Group';
 
 interface Props {
   className?: string;

@@ -1,8 +1,10 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
 
 import resets from '../../_resets.module.scss';
-import classes from './Button_1Reset.module.scss';
+import classes from './Button_Reload.module.scss';
 
 interface Props {
   className?: string;
@@ -10,12 +12,13 @@ interface Props {
     root?: string;
   };
 }
-/* @figmaId 50:104 */
-export const Button_1Reset: FC<Props> = memo(function Button_1Reset(props = {}) {
+/* @figmaId 50:103 */
+export const Button_Reload: FC<Props> = memo(function Button_Reload(props = {}) {
   return (
     <div className={`${resets.clapyResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}>
       <div className={classes.rectangle3}></div>
-      <div className={classes.reset}>Reset</div>
+      <div className={classes.reload}>Reload</div>
+      {/* <Button variant="contained">Contained</Button> */}
     </div>
   );
 });
